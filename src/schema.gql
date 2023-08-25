@@ -1,0 +1,11 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Saluda a la persona"""
+  Saludo: String!
+
+  """Despide a la persona"""
+  Despedida(nombre: String!): String!
+}
